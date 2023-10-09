@@ -23,14 +23,14 @@ function clickFunction(target) {
     document.getElementById("zoom").style.display = "block";
     document.getElementById("navbar").style.display = "none";
 
-    var DOM_img = document.getElementById("zoomPic");
+    var DOM_img = document.getElementById("zoom__picture");
 
     DOM_img.src = target.src;
-    var DOM_span = document.getElementById("zoomText");
+    var DOM_span = document.getElementById("zoom__text");
     DOM_span.innerHTML = target.alt;
-    var DOM_exitBtn = document.getElementById("exitBtn");
+    var DOM_zoomExitBtn = document.getElementById("zoom__exit-btn");
 
-    DOM_exitBtn.onclick = function () {
+    DOM_zoomExitBtn.onclick = function () {
         document.getElementById("zoom").style.display = "none";
         document.getElementById("navbar").style.display = "block";
     };
