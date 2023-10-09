@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  line-height: 1.8;
+  font-size: 15px;
+  color: #777777;
+}
+
+header {
+  top: 0;
+  left: 0;
+  width: 100vw;
+  position: fixed;
+  background-color: transparent;
+  font-size: 15px;
+  z-index: 3;
+}
+header ul {
+  position: relative;
+  list-style: none;
+  display: inline-block;
+  left: 0;
+  padding-left: 0;
+}
+header ul li {
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 8px 16px;
+}
+header ul li:hover {
+  background-color: #ccc;
+  color: black;
+}
+header ul li a {
+  text-decoration: none;
+}
+
+header ul li i {
+  padding: 0 5px;
+}
+header span {
+  display: inline-block;
+  position: absolute;
+  right: 20px;
+  padding: 8px 16px;
+}

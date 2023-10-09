@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" media="screen" href="header.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="footer.css" />
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <header id="navbar">
+      <ul>
+        <li>
+          <a href="#home">Home</a>
+        </li>
+        <li>
+          <a href="#aboutMe"><i class="fa-solid fa-user"></i>About</a>
+        </li>
+        <li>
+          <a href="#latestWork"
+            ><i class="fa-solid fa-table-cells"></i>Portfolio</a
+          >
+        </li>
+        <li>
+          <a href="#myContact"><i class="fa-solid fa-envelope"></i>Contact</a>
+        </li>
+      </ul>
+      <span><i class="fa-solid fa-magnifying-glass"></i></span>
+    </header>
+    <main id="home">
+      <article class="myBanner">
+        <figure></figure>
+        <span>My website logo</span>
+      </article>
+      <section id="aboutMe">
+        <h1>About me</h1>
+        <article>
+          <i>I love photography</i>
+          <p>
+            We have created a fictional "personal" website/blog, and our
+            fictional character is a hobby photographer. Lorem ipsum dolor sit
+            amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+            nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+            cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat.
+          </p>
+          <div id="detailsAboutMe">
+            <figure>
+              <p><i class="fa-solid fa-user"></i>Thu Trang</p>
+              <br />
+              <img
+                alt="profile picture"
+                src="https://media.istockphoto.com/id/1300512215/photo/headshot-portrait-of-smiling-ethnic-businessman-in-office.jpg?s=612x612&w=0&k=20&c=QjebAlXBgee05B3rcLDAtOaMtmdLjtZ5Yg9IJoiy-VY="
+              />
+            </figure>
+            <p>
+              Welcome to my website. I am lorem ipsum consectetur adipiscing
+              elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+              aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+              laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+              dolor in reprehenderit in voluptate velit esse cillum dolore eu
+              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est
+              laborum consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+              veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+              ex ea commodo consequat.
+            </p>
+          </div>
+        </article>
+        <div id="mySkills">
+          <p>I'm really good at:</p>
+          <ul>
+            <li>
+              <p><i class="fa-solid fa-camera"></i>Photography</p>
+              <div class="progress">
+                <div class="progressBar">90%</div>
+              </div>
+            </li>
+            <li>
+              <p><i class="fa-solid fa-laptop"></i>Web Design</p>
+              <div class="progress">
+                <div class="progressBar">85%</div>
+              </div>
+            </li>
+            <li>
+              <p><i class="fa-regular fa-image"></i>Photoshop</p>
+              <div class="progress">
+                <div class="progressBar">75%</div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="statistics">
+        <div>
+          <p>14+</p>
+          <p>Partners</p>
+        </div>
+        <div>
+          <p>55+</p>
+          <p>Project Done</p>
+        </div>
+        <div>
+          <p>89+</p>
+          <p>Happy clients</p>
+        </div>
+        <div>
+          <p>150+</p>
+          <p>Meetings</p>
+        </div>
+      </section>
+
+      <section id="portfolio">
+        <article class="myBanner">
+          <figure></figure>
+          <span>Portfolio</span>
+        </article>
+        <div id="latestWork">
+          <h1>My work</h1>
+          <i>Here are some of my latest lorem work ipsum tipsum. </i>
+          <i>Click on the images to make them bigger </i>
+          <br />
+          <div>
+            <img
+              alt="The mist over the mountains"
+              src="https://www.w3schools.com/w3images/p1.jpg"
+              onclick="clickFunction(this)"
+            />
+            <img
+              alt="Coffee beans"
+              src="https://www.w3schools.com/w3images/p2.jpg"
+              onclick="clickFunction(this)"
+            />
+
+            <img
+              alt="Bear closeup"
+              src="https://www.w3schools.com/w3images/p3.jpg"
+              onclick="clickFunction(this)"
+            />
+
+            <img
+              alt="Quiet ocean"
+              src="https://www.w3schools.com/w3images/p4.jpg"
+              onclick="clickFunction(this)"
+            />
+
+            <img
+              alt="The mist"
+              src="https://www.w3schools.com/w3images/p5.jpg"
+              onclick="clickFunction(this)"
+            />
+            <img
+              alt="My beloved typewriter"
+              src="https://www.w3schools.com/w3images/p6.jpg"
+              onclick="clickFunction(this)"
+            />
+            <img
+              alt="Empty ghost train"
+              src="https://www.w3schools.com/w3images/p7.jpg"
+              onclick="clickFunction(this)"
+            />
+            <img
+              alt="Sailing"
+              src="https://www.w3schools.com/w3images/p8.jpg"
+              onclick="clickFunction(this)"
+            />
+          </div>
+          <button>Load more</button>
+        </div>
+      </section>
+
+      <section id="contact">
+        <article class="myBanner">
+          <figure></figure>
+          <span>Contact</span>
+        </article>
+        <div id="myContact">
+          <h1>Where I work</h1>
+          <i>I'd love your feedback! </i>
+          <div>
+            <aside>
+              <img
+                alt="my contact"
+                src="https://www.w3schools.com/w3images/map.jpg"
+              />
+            </aside>
+            <aside>
+              <div>
+                <p><i class="fa-solid fa-location-dot"></i>Chicago, US</p>
+                <p><i class="fa-solid fa-phone"></i>Phone: +00 151515</p>
+                <p>
+                  <i class="fa-solid fa-envelope"></i>Email:
+                  lthutrang17@gmail.com
+                </p>
+              </div>
+              <p>
+                Swing by for a cup of
+                <i class="fa-solid fa-mug-saucer"></i>
+                , or leave me a note:
+              </p>
+              <div>
+                <form>
+                  <div>
+                    <input type="text" placeholder="Name" required />
+                    <input type="text" placeholder="Email" required />
+                  </div>
+
+                  <input type="text" placeholder="Message" required />
+                  <button>
+                    <i class="fa-solid fa-paper-plane"></i>Send Message
+                  </button>
+                </form>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <div id="zoom">
+        <span id="exitBtn"><i class="fa-solid fa-xmark"></i></span>
+        <img id="zoomPic" alt="zoom picture" src="" />
+        <div id="zoomText"></div>
+      </div>
+    </main>
+    <footer>
+      <a href="#home"><i class="fa fa-arrow-up"></i>To the top</a>
+      <div>
+        <i class="fa-brands fa-square-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-snapchat"></i>
+        <i class="fa-brands fa-pinterest-p"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-linkedin-in"></i>
+      </div>
+      <p>
+        Powered by
+        <a
+          href="https://www.w3schools.com/w3css/default.asp"
+          title="W3.CSS"
+          target="_blank"
+          class="w3-hover-text-green"
+          >w3.css</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>

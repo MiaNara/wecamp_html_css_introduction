@@ -1,0 +1,38 @@
+footer {
+  text-align: center;
+  background-color: #6c9a8b;
+  padding: 64px;
+}
+footer:hover {
+  background-color: #e8998d;
+}
+
+footer div i {
+  color: white;
+  padding: 0 1px;
+  font-size: 24px;
+  cursor: pointer;
+}
+footer div {
+  margin: 16px 0;
+}
+
+footer a {
+  color: white;
+}
+footer > a {
+  background-color: white;
+  padding: 8px 16px;
+  color: #777777;
+  text-decoration: none;
+  margin: 0;
+  display: inline-block;
+  margin-bottom: 8px;
+}
+footer p {
+  color: white;
+  margin: 15px 0;
+}
+footer a i {
+  margin-right: 16px;
+}
